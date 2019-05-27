@@ -24,8 +24,16 @@ import java.util.ArrayList;
 
         public void addVertex(Vertex v){
             VertexColl.add(v);
+        }
 
-
+        public void printGrafph(){
+            for(Vertex v : this.getVertexColl()){
+                System.out.print("[" + v.getCode() + "] ");
+                for (Vertex w: v.getAdjacencyList()){
+                    System.out.print(" " + w.getCode() +" ");
+                }
+                System.out.print("\n");
+            }
         }
 
 
