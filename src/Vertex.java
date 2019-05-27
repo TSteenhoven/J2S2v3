@@ -39,6 +39,15 @@ public class Vertex {
     }
     //endregion
 
+    public void addEdge(Vertex v){
+        this.addAdjacency(v);
+        v.addAdjacency(this);
+    }
+
+    public void addAdjacency(Vertex v){
+        this.AdjacencyList.add(v);
+    }
+
 
 
 

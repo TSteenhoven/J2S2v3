@@ -22,6 +22,15 @@ import java.util.ArrayList;
         }
         //endregion
 
+        public void addVertex(Vertex v){
+            VertexColl.add(v);
+
+
+        }
+
+
+
+
 
 
     }

@@ -9,5 +9,13 @@ public class Dora {
     }
     /*Methods*/
 
+    //region gs ss
+    public Graph getG() {
+        return g;
+    }
 
+    public void setG(Graph g) {
+        this.g = g;
+    }
+    //endregion
 }
